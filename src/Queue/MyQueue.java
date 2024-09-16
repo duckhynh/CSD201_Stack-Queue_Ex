@@ -1,6 +1,5 @@
 package Queue;
 
-
 public class MyQueue {
     class Node{
         int data;
@@ -29,7 +28,7 @@ public class MyQueue {
 
     public void enqueue(int data){
         Node newNode = new Node(data);
-        // TH1 : Queue Null => front noi node dau tien
+        
         if(isEmpty()){
             front = newNode;
             rear = newNode;
@@ -40,9 +39,6 @@ public class MyQueue {
         rear = newNode;
         length++;
     }
-    // dequeue(): remove front element and return data of removed element
-// BTVN 1: 2 , 19 -> LeetCode
-// BTVN 2: Implement Stack and Queue
 
     public Object dequeue(){
         if(isEmpty()) 
