@@ -1,7 +1,5 @@
 package Stack;
 
-import java.util.Stack;
-
 public class MyStack {
     class Node{
         int data;
@@ -47,7 +45,7 @@ public class MyStack {
         stack.push(25);
         stack.push(30);
         System.out.println("pop: " + stack.pop());
-        stack.pop();  
+         
     }
     
 }
